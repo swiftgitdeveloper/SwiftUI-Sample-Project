@@ -45,7 +45,7 @@ struct NotesListView: View {
                             Text(note.NotesItem)
                         }
                     }
-                    searchCompletion(model.searchText)
+                    .searchCompletion(model.searchText)
                 }
                 .refreshable(action: {
                     model.refreshNotes()
