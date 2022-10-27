@@ -48,7 +48,7 @@ struct ContentView: View {
                             .padding(.vertical, 6)
                         })
                     }, header: {
-                        Text("My Lists")
+                        Text("Category")
                         .fontWeight(.bold)
                         .font(.system(.title3, design: .rounded))
                         .foregroundColor(.black)
