@@ -53,11 +53,8 @@ struct NotesListView: View {
                 .navigationTitle("Notes")
                 .navigationBarTitleDisplayMode(.large)
                 .toolbar {
-                    //Navigation Bar Trailing Button
-                    ToolbarItemGroup(placement: .navigationBarLeading) {
-                        EditButton()
-                    }
                     ToolbarItemGroup(placement: .navigationBarTrailing) {
+                        EditButton()
                         Button(action: {
                             createNotes.toggle()
                         }, label: {
